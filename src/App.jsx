@@ -4,7 +4,7 @@ import {  Route , createBrowserRouter, createRoutesFromElements, RouterProvider}
 import "remixicon/fonts/remixicon.css";
 import Home from "./Components/Home/Home";
 import Login from "./Components/Login/Login";
-import About from "./Components/About/About";
+import About from "./Components/About/about";
 import Layout from "./Components/Layout/Layout";
 import Sign from "./Components/Sign/Sign";
 import Contact from "./Components/Contact/contact";
