@@ -1,0 +1,28 @@
+{
+  "title": "Home",
+  "program": "Program",
+  "about": "About us",
+  "Contact": "Contact us",
+  "download app": "Download App",
+  "Relible Delivery Solutio": "Reliable Delivery Solution",
+  "Driving innovation in delivery acoross various sectors": "Driving innovation in delivery across various sectors",
+  "Available on":"Available on",
+    "Munjaz is an application that allows you to request various services with ease and speed":"Munjaz is an application that allows you to request various services with ease and speed "
+    ,
+  "Try Munjaz now":"Try Munjaz now",  
+  "abouts":{
+    "title":"Munjiz",
+    
+    "button":"Order Now",
+    "description": "Munjiz is a comprehensive website and application that allows users to order and deliver food, medicines, grocery purchases, and transportation services (taxi) from one place, easily, quickly and safely"
+  ,"description2":"With our website and app, ordering is easier than ever! In simple and quick steps, you can order what you need  whether it's food, medicine, grocery or even a delivery car  and take you to your door safely and comfortably"
+  ,"title2":"Order with ease"
+  },
+  "analytics": {
+    "title": "Join our team",
+    "description": "If you own a car or motorcycle and are looking for an opportunity to increase your income, you are in the right place. Register now and benefit from the following benefits",
+    "description2": "1. Increase income and profits Earn and get an appropriate financial return with every delivery.2. Flexible working hours Choose working times that fit your personal schedule.3. Rewards for service The customer can reward you with an additional amount for the service after completing the order.",
+    "button": " Join Now"
+  }
+
+}

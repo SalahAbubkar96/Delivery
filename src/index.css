@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+body{
+  background: #F5F5F5;
+   font-family: "Montserrat", sans-serif;
+}
+:root {
+  --card-bg-01: #fdefe6;
+  --card-bg-02: #d6e5fb;
+  --card-bg-03: #ceebe9;
+  --card-bg-04: #e2f2b2;
+  --primary-color: #0a1d37;
+  --hero-bg: #d6e5fb;
+  --heading-fontSize: 2rem;
+  --small-text-color: #999;
+  --heading-text-color: #0a1d37;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.btn{
+  background: #FFF;
+  color: #212121;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+}
+.planet-background-1 {
+  background: radial-gradient(80.36% 80.36% at 18.95% 26.51%, #60DBFF 0.56%, #60D5FF 9.37%, #5FC4FF 21.1%, #5DA9FF 34.46%, #5A82FF 49.03%, #5751FF 64.42%, #5643FF 68.44%, #563DF8 74.32%, #552EE5 82.82%, #5315C6 92.87%, #5200AB 100%);
+  background-size: 150% 150%;
+  animation: none; /* Disable the initial rotation animation */
+}
+
+.btn img{
+  width: 20px;
+  margin-left: 10px;
+}
+.btn.dark-btn{
+  background: #004d40;
+  color: #fff;
+}
+
+section {
+  
+  padding: 10px 2px;
+
+}
+
+
+
+@media only screen and (max-width:768px){
+  section{
+    padding: 40px 0px;
+  }
+}
+/* ----- media query ------ */
+@media(max-width: 1200px){
+    .container{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+    .btn{
+      padding: 14px 17px;
+    }
+
+}
