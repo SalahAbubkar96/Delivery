@@ -28,7 +28,7 @@ const Navbar = () => {
           <li>{t("title")}</li>
         </NavLink>{" "}
      
-        <NavLink to="/about" smooth={true} offset={-260} duration={500}>
+        <NavLink to="/About" smooth={true} offset={-260} duration={500}>
           <li>{t("about")}</li>
         </NavLink>{" "}
         <NavLink to="/Login" smooth={true} offset={-260} duration={500}>

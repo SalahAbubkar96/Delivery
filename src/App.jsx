@@ -4,7 +4,7 @@ import {  Route , createBrowserRouter, createRoutesFromElements, RouterProvider}
 import "remixicon/fonts/remixicon.css";
 import Home from "./Components/Home/Home";
 import Login from "./Components/Login/Login";
-import About from "./Components/About/about";
+import About from "./Components/About/About";
 import Layout from "./Components/Layout/Layout";
 import Sign from "./Components/Sign/Sign";
 import Contact from "./Components/Contact/contact";
@@ -18,8 +18,8 @@ function App() {
         <Route index element={<Home />} />
         <Route path="Login" element={<Login />} />
         <Route path="Sign" element={<Sign />} />
-        <Route path="about" element={<About />} />
-        <Route path="contact" element={<Contact />} />
+        <Route path="About" element={<About />} />
+        <Route path="Contact" element={<Contact />} />
       </Route>
     )
   ); 
