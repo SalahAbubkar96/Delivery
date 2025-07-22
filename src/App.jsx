@@ -7,7 +7,7 @@ import Login from "./Components/Login/Login";
 import About from "./Components/About/About";
 import Layout from "./Components/Layout/Layout";
 import Sign from "./Components/Sign/Sign";
-import Contact from "./Components/Contact/contact";
+import Contact from "./Components/Contact/Contact";
 
 
 

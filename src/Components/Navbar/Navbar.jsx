@@ -54,7 +54,7 @@ const Navbar = () => {
             </button>
           )}
         </li>
-         <NavLink to="contact" smooth={true} offset={-250} duration={500}>
+         <NavLink to="Contact" smooth={true} offset={-250} duration={500}>
           <li  className="btns">{t("Contact")}</li>
           
         </NavLink>{" "}
